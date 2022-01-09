@@ -3,7 +3,7 @@ import React, { forwardRef } from 'react';
 import {ThumbUpIcon} from '@heroicons/react/outline';
 // eslint-disable-next-line react/display-name
 const Thumbnail = forwardRef(({ result }, ref) => {
-    console.log(result);
+    // console.log(result);
     const BASE_URL = 'https://image.tmdb.org/t/p/original';
     return (
         <div 
